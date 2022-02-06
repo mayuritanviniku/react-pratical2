@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+html,
+body {
+  background-color: #e7e7e7;
+}
+
+.wrapper {
+  max-width: 900px;
+  height: auto;
+  margin: 50px auto;
+  padding: 10px;
+}
+
+h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-and-todo-box {
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button {
+  height: 45px;
+
+  overflow: hidden;
+  display: flex;
+}
+
+.todo {
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.todo input {
+  margin-right: 5px;
+}
+
+.todo .edit-and-delete {
+  display: flex;
+  cursor: pointer;
+}
+
+.delete-all {
+  padding: 10px;
+  cursor: pointer;
+}
